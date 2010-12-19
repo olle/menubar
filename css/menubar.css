@@ -1,0 +1,61 @@
+ul.menubar li a:focus::-moz-focus-inner {
+    border-color: transparent !important;
+}
+
+ul.menubar li a::-moz-focus-inner {
+    border: none;
+    padding: 0;
+}
+
+ul.menubar {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	list-style-type: none;
+	list-style-position: inside;
+	list-style-image: none;	
+}
+
+ul.menubar li {
+	float: left;
+	height: 55px;
+	overflow: visible;
+	padding-right: 10px;
+	background: url(../img/menubar.png) right -240px no-repeat;
+}
+
+ul.menubar li a {
+	text-shadow: 1px 1px 0px #fff;
+	text-decoration: none;
+	color: #444;
+	font-weight: bold;
+	display: block;
+	height: 40px;
+	padding: 15px 5px 0 15px;
+	overflow: visible;
+	background: url(../img/menubar.png) left 0px no-repeat;
+}
+
+ul.menubar li:hover {
+	background-position: right -300px;
+}
+ul.menubar li:hover a {
+	color: #333;
+	background-position: left -60px;
+}
+
+ul.menubar > li:first-child a {
+	background: url(../img/menubar.png) left -120px no-repeat;
+}
+
+ul.menubar > li:first-child:hover a {
+	background: url(../img/menubar.png) left -180px no-repeat;
+}
+
+ul.menubar > li.last {
+	background: url(../img/menubar.png) right -360px no-repeat;	
+}
+
+ul.menubar > li:hover.last {
+	background: url(../img/menubar.png) right -420px no-repeat;	
+}
